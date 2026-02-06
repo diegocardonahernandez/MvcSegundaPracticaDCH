@@ -1,0 +1,14 @@
+﻿@model Comic
+
+<h4 class="text-center">DETALLES DEL COMIC</h4>
+
+<div class="d-flex w-100 justify-content-center p-2">
+    <div class="card" style="width: 18rem;">
+        <img src="@Model.Imagen" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Nombre</h5>
+            <p class="card-text">ID Comic: @Model.IdComic</p>
+            <p class="card-text">Descripción: @Model.Descripcion</p>
+        </div>
+    </div>
+</div>
